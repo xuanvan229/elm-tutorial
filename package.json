@@ -1,0 +1,26 @@
+{
+  "name": "elm-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "hongxuan",
+  "license": "MIT",
+  "scripts": {
+      "api": "node api.js",
+      "build": "webpack",
+      "client": "webpack-dev-server --port 3000",
+      "start": "nf start"
+  },
+  "dependencies": {
+    "ace-css": "1.1",
+    "css-loader": "^0.28.7",
+    "elm-webpack-loader": "^4.4.0",
+    "file-loader": "^1.1.6",
+    "font-awesome": "4",
+    "foreman": "^2.0.0",
+    "json-server": "^0.12.1",
+    "style-loader": "^0.19.1",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  }
+}
